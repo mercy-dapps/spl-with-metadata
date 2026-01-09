@@ -5,7 +5,7 @@ package_manager = "yarn"
 resolution = true
 skip-lint = false
 
-[programs.localnet]
+[programs.devnet]
 spl_with_metadata = "DPdXymaxb5YS8br93TSSSpiAdj1UytCdf1axrkqPe67k"
 
 [registry]
