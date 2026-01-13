@@ -31,6 +31,3 @@ pub mod spl_with_metadata {
        Ok(())
     }
 }
-
-#[derive(Accounts)]
-pub struct Initialize {}
