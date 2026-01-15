@@ -12,7 +12,6 @@ import { assert } from "chai";
 import { readFileSync } from "fs";
 import path from "path";
 import { SplWithMetadata } from "../target/types/spl_with_metadata";
-import { min } from "bn.js";
 
 describe("spl_with_metadata", () => {
   // Configure the client to use the local cluster.

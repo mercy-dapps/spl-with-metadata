@@ -6,14 +6,14 @@ resolution = true
 skip-lint = false
 
 [programs.devnet]
-spl_with_metadata = "DPdXymaxb5YS8br93TSSSpiAdj1UytCdf1axrkqPe67k"
+spl_with_metadata = "8uYYGzstnn6FiyJBkic5DW5punwghAAH8MV5yJ1V9nVH"
 
 [registry]
 url = "https://api.apr.dev"
 
 [provider]
 cluster = "devnet"
-wallet = "~/.config/solana/id.json"
+wallet = "~/.config/solana/devnet-wallet.json"
 
 [scripts]
 test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 \"tests/**/*.ts\""

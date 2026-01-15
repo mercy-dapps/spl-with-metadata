@@ -6,7 +6,7 @@ pub mod instructions;
 pub use error::*;
 pub use instructions::*;
 
-declare_id!("DPdXymaxb5YS8br93TSSSpiAdj1UytCdf1axrkqPe67k");
+declare_id!("8uYYGzstnn6FiyJBkic5DW5punwghAAH8MV5yJ1V9nVH");
 
 #[program]
 pub mod spl_with_metadata {
